@@ -3,6 +3,7 @@ import os
 from create_stitched_images import create_stitched_comparison
 os.environ["HF_HUB_DISABLE_SSL_VERIFICATION"] = "1"
 import torch
+import time
 from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
@@ -10,6 +11,7 @@ from huggingface_hub import login
 from sam3 import build_sam3_image_model
 from sam3.model.sam3_image_processor import Sam3Processor
 from sam3.visualization_utils import COLORS
+
 
 # Set up torch settings
 torch.backends.cuda.matmul.allow_tf32 = True
@@ -267,6 +269,7 @@ def mc_dropout_inference(processor, image, num_runs=3, text_prompt='bags'):
     probabilities_stack = 1 / (1 + np.exp(-logits_stack))
     mean_mask = np.mean(probabilities_stack, axis=0)
     std_mask = np.std(probabilities_stack, axis=0)
+    entropy_map = -mean_mask * np.log(mean_mask + 1e-8) - (1 - mean_mask) * np.log(1 - mean_mask + 1e-8)
 
     print(f"  Debug: mask_logits shape={logits_stack.shape}, std_mask min={std_mask.min():.6f}, max={std_mask.max():.6f}, mean={std_mask.mean():.6f}")
 
@@ -280,6 +283,7 @@ def mc_dropout_inference(processor, image, num_runs=3, text_prompt='bags'):
         "score_std": score_std,
         "mask_mean": mean_mask,
         "mask_std": std_mask,
+        "entropy_map": entropy_map,
     }
 
     return stats, states[-1], logits_stack
@@ -332,7 +336,10 @@ def main():
         else:
             text_prompt = 'objects'  # fallback
         
-        stats, result_state, _ = mc_dropout_inference(processor, image, num_runs=20, text_prompt=text_prompt)
+        t_start = time.time()
+        stats, result_state, _ = mc_dropout_inference(processor, image, num_runs=3, text_prompt=text_prompt)
+        t_end = time.time()
+        print(f"  Inference time (T=3): {t_end - t_start:.2f}s")
 
         if stats is None or result_state is None:
             print(f"  ✗ No valid prediction for {image_path}")
@@ -400,6 +407,10 @@ def main():
         # Save uncertainty map heatmap
         uncertainty_map_path = os.path.join(output_dir, f"{result_name}_uncertainty_map.png")
         save_uncertainty_map(stats['mask_std'].squeeze(), uncertainty_map_path, original_image=image, result_state=result_state)
+        # Add：save entropy map
+        entropy_map_path = os.path.join(output_dir, f"{result_name}_entropy_map.png")
+        save_uncertainty_map(stats['entropy_map'].squeeze(), entropy_map_path, original_image=image, result_state=result_state)
+        print(f"  Saved entropy map to {entropy_map_path}")
 
         # Run original inference for comparison
         print(f"  Running original inference for comparison...")

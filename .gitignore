@@ -152,3 +152,12 @@ Thumbs.db
 *.bpe
 *.vocab
 inference_results_uncertainty/
+# COCO images
+assets/uncertainImages/0000*.jpg
+
+# Results
+inference_results_uncertainty/
+spearman_results.json
+
+# Environment
+env/
