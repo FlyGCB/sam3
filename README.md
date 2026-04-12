@@ -499,3 +499,50 @@ If you use SAM 3 or the SA-Co dataset in your research, please use the following
       url={https://arxiv.org/abs/2511.16719},
 }
 ```
+
+### Reproducing Result Figures
+
+All figures in the report can be reproduced with the following commands:
+
+**Figure: 2×4 Stitched Comparison Grid (Original | Segmentation | Variance | Entropy)**
+```bash
+python inference_script.py
+# Output: inference_results_uncertainty/stitched_comparison_1_groceries.png
+#         inference_results_uncertainty/stitched_comparison_2_truck.png
+```
+
+**Figure: Uncertainty Map / Entropy Map (individual)**
+```bash
+# Generated automatically by inference_script.py
+# Output: inference_results_uncertainty/result_*_uncertainty_map.png
+#         inference_results_uncertainty/result_*_entropy_map.png
+```
+
+**Spearman ρ Results**
+```bash
+python coco_eval.py
+# Output: spearman_results.json
+# Expected: Spearman rho = 0.4344, p-value = 0.0007, N = 58
+```
+
+### Dataset Download
+
+**COCO val2017 (for coco_eval.py):**
+```bash
+# Annotations (~241MB)
+wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip
+python -c "import zipfile; zipfile.ZipFile('annotations_trainval2017.zip').extractall('.')"
+
+# Download 100 random val images using our script
+python coco/download_100.py
+# Then move images to: assets/uncertainImages/
+```
+
+> Note: Do not upload COCO images to GitHub. Dataset must be downloaded separately.
+
+### Hardware & Reproducibility Notes
+
+- **GPU**: NVIDIA GPU with CUDA 12.6+ (tested on SUTD AI Mega Cluster)
+- **GPU Memory**: ~10GB required
+- **Random seed**: `random.seed(42)` used in coco_eval.py for reproducible image selection
+- **Inference time**: 0.81s per image at T=3 on single GPU
