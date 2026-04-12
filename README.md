@@ -1,3 +1,96 @@
+## 🎓 Course Project: Uncertainty-Aware Segmentation with SAM3
+
+**61.502 Deep Learning for Enterprise | Y2026 | SUTD**
+
+> Inference-Time Uncertainty Estimation for Instance Segmentation using Monte Carlo Dropout on SAM3
+
+### Team Members
+
+| Name | Student ID |
+|------|-----------|
+| Shiva Prasad | 1009737 |
+| Duan Xu | 1010728 |
+| Lee Kai Boo | 1011130 |
+
+### Project Overview
+
+This project implements **Monte Carlo (MC) Dropout** at inference time on SAM3 to estimate prediction uncertainty — without any retraining. By selectively enabling dropout in the decoder and mask head layers, we obtain stochastic predictions whose per-pixel variance and entropy capture genuine model uncertainty.
+
+**Key Results:**
+- ✅ Inference time: **0.81s per image at T=3** (well under 5s target)
+- ✅ Spearman ρ = **0.4344** (p=0.0007, N=58) — uncertainty correlates with segmentation error
+- ✅ Entropy map and variance map generated per image
+- ✅ Evaluated on 100 COCO val2017 images
+
+### Project-Specific Files
+
+| File | Description |
+|------|-------------|
+| `inference_script.py` | Main MC-Dropout inference pipeline — outputs variance map, entropy map, segmentation |
+| `coco_eval.py` | COCO evaluation script — computes Spearman ρ between uncertainty and IoU error |
+| `create_stitched_images.py` | Generates 2×4 comparison grid [Original \| Segmentation \| Variance \| Entropy] |
+
+### Running the Uncertainty Inference Pipeline
+
+**Step 1: Set up environment**
+```bash
+# Create conda environment in project directory (survives server restarts)
+conda create --prefix ./env python=3.12 -y
+source /opt/conda/bin/activate ./env
+
+# Install PyTorch with CUDA
+pip install torch==2.10.0 torchvision --index-url https://download.pytorch.org/whl/cu128
+
+# Install SAM3 and dependencies
+pip install -e .
+pip install -e ".[notebooks]"
+pip install pycocotools scipy
+```
+
+**Step 2: Authenticate with HuggingFace**
+```bash
+hf auth login  # SAM3 checkpoint access required
+```
+
+**Step 3: Add images**
+```bash
+# Place test images in:
+assets/uncertainImages/
+```
+
+**Step 4: Run inference**
+```bash
+python inference_script.py
+# Outputs saved to: inference_results_uncertainty/
+# Results include: variance map, entropy map, segmentation, stitched comparison grid
+```
+
+**Step 5: Run COCO evaluation (Spearman ρ)**
+```bash
+# Download COCO val2017 annotations first:
+wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip
+# Extract and place instances_val2017.json in: /path/to/coco/annotations/
+
+# Update paths in coco_eval.py, then run:
+python coco_eval.py
+# Outputs: spearman_results.json
+```
+
+### Key Parameters
+
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `T` (MC samples) | 20 | Number of stochastic forward passes |
+| `confidence_threshold` | 0.1 | Detection confidence cutoff |
+| Dropout layers | 30 | Decoder/mask head layers only (out of 163 total) |
+
+### Hardware Requirements
+
+- NVIDIA GPU with CUDA 12.6+
+- ~10GB GPU memory
+- Tested on SUTD AI Mega Cluster
+
+---
 # SAM 3: Segment Anything with Concepts
 
 Meta Superintelligence Labs
