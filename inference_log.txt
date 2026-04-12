@@ -1,0 +1,1678 @@
+/home/jovyan/DuanXu_1010728/SAM3/sam3/sam3/model_builder.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/home/jovyan/DuanXu_1010728/SAM3/sam3/env/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/jovyan/DuanXu_1010728/SAM3/sam3/env/lib/python3.12/site-packages/torch/nn/modules/module.py:1370: UserWarning: Casting complex values to real discards the imaginary part (Triggered internally at /pytorch/aten/src/ATen/native/Copy.cpp:308.)
+  return t.to(
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5470123824979254].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2434082461812896].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.215773452138999].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.493133518394501].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.3610355803084935].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1235718347378727].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.523169872253808].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.239863634101666].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5381302231143885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4860350713062032].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4755035668138885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5085457318660596].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4384257154781652].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.0932590949740981].
+✓ Model has 163 Dropout layers
+Found 102 images in /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages
+
+Processing image 1/102: 000000000776.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.83s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000000776.jpg
+
+Processing image 2/102: 000000007818.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 2 objects, score=0.1180
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 2 objects, score=0.1308
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 2 objects, score=0.1046
+  Debug: mask_logits shape=(3, 427, 640), std_mask min=0.000000, max=0.018288, mean=0.000029
+  Inference time (T=3): 0.36s
+  ✓ Score: mean=0.1536, std=0.0135, 2 total valid objects
+found 2 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_2.png.uncertainty.txt
+  Debug: boxes=2, uncertainties=2
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_2_uncertainty_map.png
+  Debug: boxes=2, uncertainties=2
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_2_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_2_entropy_map.png
+  Running original inference for comparison...
+found 2 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_2_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_2_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_2_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 3/102: 000000009914.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.31s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000009914.jpg
+
+Processing image 4/102: 000000012667.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000012667.jpg
+
+Processing image 5/102: 000000013004.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000013004.jpg
+
+Processing image 6/102: 000000017436.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 5 objects, score=0.1163
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 8 objects, score=0.1328
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 7 objects, score=0.1424
+  Debug: mask_logits shape=(3, 640, 481), std_mask min=0.000000, max=0.108922, mean=0.000207
+  Inference time (T=3): 0.30s
+  ✓ Score: mean=0.2146, std=0.0196, 7 total valid objects
+found 7 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_6.png.uncertainty.txt
+  Debug: boxes=7, uncertainties=7
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_6_uncertainty_map.png
+  Debug: boxes=7, uncertainties=7
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_6_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_6_entropy_map.png
+  Running original inference for comparison...
+found 7 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_6_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_6_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_6_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 7/102: 000000022479.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000022479.jpg
+
+Processing image 8/102: 000000023272.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.31s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000023272.jpg
+
+Processing image 9/102: 000000023359.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000023359.jpg
+
+Processing image 10/102: 000000029596.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000029596.jpg
+
+Processing image 11/102: 000000033759.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 25 objects, score=0.1638
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 26 objects, score=0.2950
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 23 objects, score=0.1568
+  Debug: mask_logits shape=(3, 457, 640), std_mask min=0.000000, max=0.108795, mean=0.002049
+  Inference time (T=3): 0.35s
+  ✓ Score: mean=0.3152, std=0.0005, 23 total valid objects
+found 23 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_11.png.uncertainty.txt
+  Debug: boxes=23, uncertainties=23
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_11_uncertainty_map.png
+  Debug: boxes=23, uncertainties=23WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5470123824979254].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2434082461812896].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.215773452138999].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.493133518394501].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.3610355803084935].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1235718347378727].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.523169872253808].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.239863634101666].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5381302231143885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4860350713062032].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4755035668138885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5085457318660596].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4384257154781652].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.0932590949740981].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4956626260884085].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5144059266584413].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.027564488716783].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4374587915806756].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.383686971709674].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5470123824979254].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2434082461812896].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.215773452138999].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.493133518394501].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.3610355803084935].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1235718347378727].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.523169872253808].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.239863634101666].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5381302231143885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4860350713062032].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4755035668138885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5085457318660596].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5470123824979254].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2434082461812896].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.215773452138999].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.493133518394501].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.3610355803084935].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1235718347378727].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.523169872253808].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.239863634101666].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5381302231143885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4860350713062032].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4755035668138885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5085457318660596].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5470123824979254].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5470123824979254].
+
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_11_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_11_entropy_map.png
+  Running original inference for comparison...
+found 28 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_11_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_11_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_11_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 12/102: 000000034257.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 21 objects, score=0.1336
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 14 objects, score=0.1102
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 21 objects, score=0.1290
+  Debug: mask_logits shape=(3, 309, 500), std_mask min=0.000004, max=0.019048, mean=0.002665
+  Inference time (T=3): 0.30s
+  ✓ Score: mean=0.2129, std=0.0018, 21 total valid objects
+found 21 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_12.png.uncertainty.txt
+  Debug: boxes=21, uncertainties=21
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_12_uncertainty_map.png
+  Debug: boxes=21, uncertainties=21
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_12_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_12_entropy_map.png
+  Running original inference for comparison...
+found 21 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_12_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_12_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_12_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 13/102: 000000035326.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 7 objects, score=0.1634
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 8 objects, score=0.1905
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 6 objects, score=0.1473
+  Debug: mask_logits shape=(3, 480, 640), std_mask min=0.000000, max=0.108858, mean=0.000196
+  Inference time (T=3): 0.31s
+  ✓ Score: mean=0.1680, std=0.0168, 6 total valid objects
+found 6 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_13.png.uncertainty.txt
+  Debug: boxes=6, uncertainties=6
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_13_uncertainty_map.png
+  Debug: boxes=6, uncertainties=6
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_13_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_13_entropy_map.png
+  Running original inference for comparison...
+found 8 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_13_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_13_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_13_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 14/102: 000000038829.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 6 objects, score=0.1643
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 6 objects, score=0.1150
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 6 objects, score=0.1679
+  Debug: mask_logits shape=(3, 427, 640), std_mask min=0.000002, max=0.015063, mean=0.001330
+  Inference time (T=3): 0.31s
+  ✓ Score: mean=0.1849, std=0.0011, 6 total valid objects
+found 6 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_14.png.uncertainty.txt
+  Debug: boxes=6, uncertainties=6
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_14_uncertainty_map.png
+  Debug: boxes=6, uncertainties=6
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_14_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_14_entropy_map.png
+  Running original inference for comparison...
+found 7 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_14_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_14_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_14_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 15/102: 000000043581.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 9 objects, score=0.2104
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 5 objects, score=0.1901
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 8 objects, score=0.1090
+  Debug: mask_logits shape=(3, 427, 640), std_mask min=0.000004, max=0.023965, mean=0.003975
+  Inference time (T=3): 0.30s
+  ✓ Score: mean=0.2042, std=0.0100, 8 total valid objects
+found 8 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_15.png.uncertainty.txt
+  Debug: boxes=8, uncertainties=8
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_15_uncertainty_map.png
+  Debug: boxes=8, uncertainties=8
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_15_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_15_entropy_map.pngWARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+
+  Running original inference for comparison...
+found 6 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_15_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_15_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_15_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 16/102: 000000054164.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000054164.jpg
+
+Processing image 17/102: 000000054654.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000054654.jpg
+
+Processing image 18/102: 000000056344.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000056344.jpg
+
+Processing image 19/102: 000000076547.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000076547.jpg
+
+Processing image 20/102: 000000080274.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000080274.jpg
+
+Processing image 21/102: 000000080949.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000080949.jpg
+
+Processing image 22/102: 000000091619.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.31s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000091619.jpg
+
+Processing image 23/102: 000000092839.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000092839.jpg
+
+Processing image 24/102: 000000100274.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000100274.jpg
+
+Processing image 25/102: 000000126107.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000126107.jpg
+
+Processing image 26/102: 000000135670.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000135670.jpg
+
+Processing image 27/102: 000000149622.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000149622.jpg
+
+Processing image 28/102: 000000153568.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000153568.jpg
+
+Processing image 29/102: 000000161609.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.34s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000161609.jpg
+
+Processing image 30/102: 000000166768.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000166768.jpg
+
+Processing image 31/102: 000000177893.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000177893.jpg
+
+Processing image 32/102: 000000183049.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000183049.jpg
+
+Processing image 33/102: 000000185250.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 4 objects, score=0.1395
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 2 objects, score=0.1188WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5470123824979254].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2434082461812896].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.215773452138999].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.493133518394501].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.3610355803084935].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1235718347378727].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.523169872253808].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.239863634101666].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5381302231143885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4860350713062032].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4755035668138885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5085457318660596].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4384257154781652].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.0932590949740981].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4956626260884085].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5144059266584413].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.027564488716783].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5470123824979254].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2434082461812896].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.215773452138999].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.493133518394501].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.3610355803084935].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1235718347378727].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.523169872253808].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.239863634101666].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5381302231143885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4860350713062032].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4755035668138885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5085457318660596].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4384257154781652].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.0932590949740981].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4956626260884085].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 4 objects, score=0.1432
+  Debug: mask_logits shape=(3, 640, 399), std_mask min=0.000000, max=0.108705, mean=0.000498
+  Inference time (T=3): 0.30s
+  ✓ Score: mean=0.1881, std=0.0138, 4 total valid objects
+found 4 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_33.png.uncertainty.txt
+  Debug: boxes=4, uncertainties=4
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_33_uncertainty_map.png
+  Debug: boxes=4, uncertainties=4
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_33_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_33_entropy_map.png
+  Running original inference for comparison...
+found 3 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_33_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_33_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_33_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 34/102: 000000187585.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000187585.jpg
+
+Processing image 35/102: 000000189828.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000189828.jpg
+
+Processing image 36/102: 000000190637.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 26 objects, score=0.1850
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 25 objects, score=0.1687
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 26 objects, score=0.1320
+  Debug: mask_logits shape=(3, 640, 428), std_mask min=0.000000, max=0.076091, mean=0.002269
+  Inference time (T=3): 0.31s
+  ✓ Score: mean=0.2470, std=0.0151, 26 total valid objects
+found 26 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_36.png.uncertainty.txt
+  Debug: boxes=26, uncertainties=26
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_36_uncertainty_map.png
+  Debug: boxes=26, uncertainties=26
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_36_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_36_entropy_map.png
+  Running original inference for comparison...
+found 24 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_36_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_36_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_36_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 37/102: 000000216419.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000216419.jpg
+
+Processing image 38/102: 000000221708.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000221708.jpg
+
+Processing image 39/102: 000000224093.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000224093.jpg
+
+Processing image 40/102: 000000248400.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000248400.jpg
+
+Processing image 41/102: 000000253433.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000253433.jpg
+
+Processing image 42/102: 000000261982.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000261982.jpg
+
+Processing image 43/102: 000000262440.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000262440.jpg
+
+Processing image 44/102: 000000263474.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 1 objects, score=0.1074
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 1 objects, score=0.1095
+  Debug: mask_logits shape=(2, 640, 479), std_mask min=0.000000, max=0.008760, mean=0.000293
+  Inference time (T=3): 0.31s
+  ✓ Score: mean=0.1084, std=0.0010, 1 total valid objects
+found 1 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_44.png.uncertainty.txt
+  Debug: boxes=1, uncertainties=1
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_44_uncertainty_map.pngWARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+
+  Debug: boxes=1, uncertainties=1
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_44_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_44_entropy_map.png
+  Running original inference for comparison...
+found 1 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_44_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_44_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_44_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 45/102: 000000273760.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000273760.jpg
+
+Processing image 46/102: 000000287545.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000287545.jpg
+
+Processing image 47/102: 000000289229.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000289229.jpg
+
+Processing image 48/102: 000000289702.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000289702.jpg
+
+Processing image 49/102: 000000301061.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000301061.jpg
+
+Processing image 50/102: 000000307074.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000307074.jpg
+
+Processing image 51/102: 000000309655.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000309655.jpg
+
+Processing image 52/102: 000000319935.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000319935.jpg
+
+Processing image 53/102: 000000322352.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000322352.jpg
+
+Processing image 54/102: 000000322724.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000322724.jpg
+
+Processing image 55/102: 000000323151.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000323151.jpg
+
+Processing image 56/102: 000000328430.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000328430.jpg
+
+Processing image 57/102: 000000334483.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 1 objects, score=0.1148
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 3 objects, score=0.1007
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 3 objects, score=0.1083
+  Debug: mask_logits shape=(3, 640, 480), std_mask min=0.000000, max=0.108566, mean=0.000500
+  Inference time (T=3): 0.30s
+  ✓ Score: mean=0.1267, std=0.0084, 3 total valid objects
+found 3 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_57.png.uncertainty.txt
+  Debug: boxes=3, uncertainties=3
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_57_uncertainty_map.png
+  Debug: boxes=3, uncertainties=3
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_57_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_57_entropy_map.png
+  Running original inference for comparison...
+found 1 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_57_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_57_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_57_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5470123824979254].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2434082461812896].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.215773452138999].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.493133518394501].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.3610355803084935].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1235718347378727].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.523169872253808].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.239863634101666].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5381302231143885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4860350713062032].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4755035668138885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5085457318660596].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4384257154781652].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.0932590949740981].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4956626260884085].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5144059266584413].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.027564488716783].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4374587915806756].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.383686971709674].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2310385188526392].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5470123824979254].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2434082461812896].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.215773452138999].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.493133518394501].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.3610355803084935].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1235718347378727].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.523169872253808].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.239863634101666].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5381302231143885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4860350713062032].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4755035668138885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5085457318660596].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4384257154781652].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.0932590949740981].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4956626260884085].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5144059266584413].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.027564488716783].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4374587915806756].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.383686971709674].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2310385188526392].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.506579247468974].
+
+
+Processing image 58/102: 000000344816.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000344816.jpg
+
+Processing image 59/102: 000000357501.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000357501.jpg
+
+Processing image 60/102: 000000357888.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000357888.jpg
+
+Processing image 61/102: 000000363188.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000363188.jpg
+
+Processing image 62/102: 000000363207.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000363207.jpg
+
+Processing image 63/102: 000000365642.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000365642.jpg
+
+Processing image 64/102: 000000368038.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000368038.jpg
+
+Processing image 65/102: 000000370900.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000370900.jpg
+
+Processing image 66/102: 000000375430.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000375430.jpg
+
+Processing image 67/102: 000000382030.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000382030.jpg
+
+Processing image 68/102: 000000384350.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000384350.jpg
+
+Processing image 69/102: 000000384670.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000384670.jpg
+
+Processing image 70/102: 000000394275.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000394275.jpg
+
+Processing image 71/102: 000000397279.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 30 objects, score=0.1211
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 27 objects, score=0.1168
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 29 objects, score=0.1284
+  Debug: mask_logits shape=(3, 427, 640), std_mask min=0.000000, max=0.059362, mean=0.000074
+  Inference time (T=3): 0.31s
+  ✓ Score: mean=0.1717, std=0.0030, 29 total valid objects
+found 29 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_71.png.uncertainty.txt
+  Debug: boxes=29, uncertainties=29
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_71_uncertainty_map.png
+  Debug: boxes=29, uncertainties=29
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_71_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_71_entropy_map.png
+  Running original inference for comparison...
+found 31 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_71_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_71_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_71_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 72/102: 000000402473.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000402473.jpg
+
+Processing image 73/102: 000000405691.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000405691.jpgWARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+
+
+Processing image 74/102: 000000411530.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000411530.jpg
+
+Processing image 75/102: 000000411665.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000411665.jpg
+
+Processing image 76/102: 000000425925.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000425925.jpg
+
+Processing image 77/102: 000000429761.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000429761.jpg
+
+Processing image 78/102: 000000433774.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000433774.jpg
+
+Processing image 79/102: 000000440171.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000440171.jpg
+
+Processing image 80/102: 000000460929.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000460929.jpg
+
+Processing image 81/102: 000000462728.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000462728.jpg
+
+Processing image 82/102: 000000466339.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000466339.jpg
+
+Processing image 83/102: 000000476491.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.29s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000476491.jpg
+
+Processing image 84/102: 000000478862.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000478862.jpg
+
+Processing image 85/102: 000000483050.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000483050.jpg
+
+Processing image 86/102: 000000484978.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000484978.jpg
+
+Processing image 87/102: 000000489842.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 1 objects, score=0.1045
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 2 objects, score=0.1004
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Debug: mask_logits shape=(2, 566, 640), std_mask min=0.000839, max=0.063670, mean=0.003794
+  Inference time (T=3): 0.31s
+  ✓ Score: mean=0.1082, std=0.0037, 2 total valid objects
+found 2 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_87.png.uncertainty.txt
+  Debug: boxes=2, uncertainties=2
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_87_uncertainty_map.png
+  Debug: boxes=2, uncertainties=2
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_87_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_87_entropy_map.png
+  Running original inference for comparison...
+  ✗ Original inference failed for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000489842.jpg
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_87_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 88/102: 000000494188.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.31s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000494188.jpg
+
+Processing image 89/102: 000000497628.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000497628.jpg
+
+Processing image 90/102: 000000507797.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layersWARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5470123824979254].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2434082461812896].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.215773452138999].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.493133518394501].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.3610355803084935].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1235718347378727].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.523169872253808].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.239863634101666].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5381302231143885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4860350713062032].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4755035668138885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5085457318660596].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4384257154781652].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.0932590949740981].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4956626260884085].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5144059266584413].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.027564488716783].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4374587915806756].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.383686971709674].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2310385188526392].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.506579247468974].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5113316772684717].
+
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000507797.jpg
+
+Processing image 91/102: 000000524850.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.31s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000524850.jpg
+
+Processing image 92/102: 000000525286.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000525286.jpg
+
+Processing image 93/102: 000000530146.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.31s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000530146.jpg
+
+Processing image 94/102: 000000530457.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000530457.jpg
+
+Processing image 95/102: 000000539962.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000539962.jpg
+
+Processing image 96/102: 000000541291.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 5 objects, score=0.1152
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 4 objects, score=0.1198
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 5 objects, score=0.1193
+  Debug: mask_logits shape=(3, 426, 640), std_mask min=0.000000, max=0.044026, mean=0.000199
+  Inference time (T=3): 0.30s
+  ✓ Score: mean=0.1199, std=0.0030, 5 total valid objects
+found 5 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_96.png.uncertainty.txt
+  Debug: boxes=5, uncertainties=5
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_96_uncertainty_map.png
+  Debug: boxes=5, uncertainties=5
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_96_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_96_entropy_map.png
+  Running original inference for comparison...
+found 5 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_96_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_96_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_96_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 97/102: 000000554595.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 1 objects, score=0.1131
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 1 objects, score=0.1198
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 1 objects, score=0.1105
+  Debug: mask_logits shape=(3, 376, 500), std_mask min=0.000000, max=0.005851, mean=0.000129
+  Inference time (T=3): 0.30s
+  ✓ Score: mean=0.1145, std=0.0039, 1 total valid objects
+found 1 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_97.png.uncertainty.txt
+  Debug: boxes=1, uncertainties=1
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_97_uncertainty_map.png
+  Debug: boxes=1, uncertainties=1
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_97_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_97_entropy_map.png
+  Running original inference for comparison...
+found 1 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_97_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_97_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_97_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 98/102: 000000555005.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000555005.jpg
+
+Processing image 99/102: 000000565012.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.31s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000565012.jpg
+
+Processing image 100/102: 000000577976.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: No valid prediction
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: No valid prediction
+  Inference time (T=3): 0.30s
+  ✗ No valid prediction for /home/jovyan/DuanXu_1010728/SAM3/sam3/assets/uncertainImages/000000577976.jpg
+
+Processing image 101/102: groceries.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 35 objects, score=0.1174
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 37 objects, score=0.1502
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 32 objects, score=0.1103
+  Debug: mask_logits shape=(3, 534, 800), std_mask min=0.000001, max=0.087253, mean=0.003080
+  Inference time (T=3): 0.33s
+  ✓ Score: mean=0.4583, std=0.0074, 32 total valid objects
+found 32 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_101.png.uncertainty.txt
+  Debug: boxes=32, uncertainties=32WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5470123824979254].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2434082461812896].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.215773452138999].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.493133518394501].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.3610355803084935].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1235718347378727].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.523169872253808].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.239863634101666].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5381302231143885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4860350713062032].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4755035668138885].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5085457318660596].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4384257154781652].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.0932590949740981].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4956626260884085].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5144059266584413].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.027564488716783].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4374587915806756].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.383686971709674].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2310385188526392].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.506579247468974].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5113316772684717].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5238077273791941].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5470123824979254].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2434082461812896].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5181167412189334].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2300907349521442].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.4243199236330475].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2454314740086483].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2987104631708526].
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.1019010773320839].
+
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_101_uncertainty_map.png
+  Debug: boxes=32, uncertainties=32
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_101_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_101_entropy_map.png
+  Running original inference for comparison...
+found 32 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_101_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_101_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_101_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+
+Processing image 102/102: truck.jpg
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 1: Got 6 objects, score=0.2886
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 2: Got 5 objects, score=0.1018
+  Enabled MC-dropout in 30 decoder/mask layers
+    Run 3: Got 9 objects, score=0.1086
+  Debug: mask_logits shape=(3, 1200, 1800), std_mask min=0.000004, max=0.053209, mean=0.024025
+  Inference time (T=3): 0.61s
+  ✓ Score: mean=0.4154, std=0.0122, 9 total valid objects
+found 9 object(s)
+  Saved stats to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_102.png.uncertainty.txt
+  Debug: boxes=9, uncertainties=9
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_102_uncertainty_map.png
+  Debug: boxes=9, uncertainties=9
+  Saved uncertainty map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_102_entropy_map.png
+  Saved entropy map to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_102_entropy_map.png
+  Running original inference for comparison...
+found 6 object(s)
+  Saved original inference to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_102_original_inference.png
+  Saved original segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_102_original_segmentation.png
+  Saved MC-dropout segmentation to /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_102_mc_segmentation.png
+
+==================================================
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_1_groceries.png
+Created stitched comparison: /home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/stitched_comparison_2_truck.png
+Error during stitching: [Errno 2] No such file or directory: '/home/jovyan/DuanXu_1010728/SAM3/sam3/inference_results_uncertainty/result_3_original_segmentation.png'
+All inferences complete! Generating 3x3 stitched comparisons...

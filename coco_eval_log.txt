@@ -1,0 +1,88 @@
+/home/jovyan/DuanXu_1010728/SAM3/sam3/sam3/model_builder.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/home/jovyan/DuanXu_1010728/SAM3/sam3/env/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/jovyan/DuanXu_1010728/SAM3/sam3/env/lib/python3.12/site-packages/torch/nn/modules/module.py:1370: UserWarning: Casting complex values to real discards the imaginary part (Triggered internally at /pytorch/aten/src/ATen/native/Copy.cpp:308.)
+  return t.to(
+Loading COCO annotations...
+Found 100 images
+Building SAM3 model...
+  [1/100] 000000462728.jpg | prompt=person | uncertainty=0.6918 | IoU=0.0082
+  [3/100] 000000038829.jpg | prompt=person | uncertainty=0.6748 | IoU=0.0714
+  [4/100] 000000013004.jpg | prompt=dining table | uncertainty=0.6595 | IoU=0.9373
+  [5/100] 000000425925.jpg | prompt=person | uncertainty=0.6910 | IoU=0.0194
+  [6/100] 000000190637.jpg | prompt=bed | uncertainty=0.6636 | IoU=0.3852
+  [9/100] 000000411665.jpg | prompt=cat | uncertainty=0.6515 | IoU=0.3659
+  [11/100] 000000368038.jpg | prompt=train | uncertainty=0.6659 | IoU=0.4698
+  [12/100] 000000322352.jpg | prompt=potted plant | uncertainty=0.6899 | IoU=0.0899
+  [13/100] 000000375430.jpg | prompt=bowl | uncertainty=0.6816 | IoU=0.4415
+  [14/100] 000000216419.jpg | prompt=traffic light | uncertainty=0.6929 | IoU=0.0066
+  [15/100] 000000384350.jpg | prompt=airplane | uncertainty=0.6646 | IoU=0.0729
+  [16/100] 000000023272.jpg | prompt=cat | uncertainty=0.6912 | IoU=0.6821
+  [18/100] 000000000776.jpg | prompt=teddy bear | uncertainty=0.6521 | IoU=0.3100
+  [20/100] 000000253433.jpg | prompt=teddy bear | uncertainty=0.6518 | IoU=0.9669
+  [23/100] 000000440171.jpg | prompt=person | uncertainty=0.6706 | IoU=0.4120
+  [24/100] 000000054654.jpg | prompt=person | uncertainty=0.6685 | IoU=0.3364
+  [25/100] 000000397279.jpg | prompt=person | uncertainty=0.6872 | IoU=0.0705
+  [30/100] 000000185250.jpg | prompt=person | uncertainty=0.6839 | IoU=0.0596
+  [31/100] 000000029596.jpg | prompt=potted plant | uncertainty=0.6928 | IoU=0.0997
+  [33/100] 000000530457.jpg | prompt=vase | uncertainty=0.6590 | IoU=0.1320
+  [34/100] 000000541291.jpg | prompt=sink | uncertainty=0.6841 | IoU=0.0893
+  [35/100] 000000319935.jpg | prompt=potted plant | uncertainty=0.6902 | IoU=0.1087
+  [36/100] 000000054164.jpg | prompt=person | uncertainty=0.6881 | IoU=0.0471
+  [37/100] 000000161609.jpg | prompt=person | uncertainty=0.6672 | IoU=0.2900
+  [40/100] 000000507797.jpg | prompt=person | uncertainty=0.6706 | IoU=0.1246
+  [41/100] 000000363188.jpg | prompt=person | uncertainty=0.6684 | IoU=0.1992
+  [42/100] 000000177893.jpg | prompt=car | uncertainty=0.6927 | IoU=0.2035
+  [43/100] 000000187585.jpg | prompt=person | uncertainty=0.6738 | IoU=0.2795
+  [44/100] 000000344816.jpg | prompt=train | uncertainty=0.6774 | IoU=0.1969
+  [45/100] 000000357501.jpg | prompt=scissors | uncertainty=0.6873 | IoU=0.1755
+  [46/100] 000000287545.jpg | prompt=giraffe | uncertainty=0.6823 | IoU=0.1005
+  [47/100] 000000539962.jpg | prompt=person | uncertainty=0.6925 | IoU=0.0237
+  [48/100] 000000363207.jpg | prompt=person | uncertainty=0.6743 | IoU=0.1966
+  [49/100] 000000357888.jpg | prompt=person | uncertainty=0.6819 | IoU=0.1181
+  [50/100] 000000033759.jpg | prompt=person | uncertainty=0.6841 | IoU=0.1372
+  [51/100] 000000530146.jpg | prompt=dining table | uncertainty=0.6750 | IoU=0.9581
+  [53/100] 000000328430.jpg | prompt=person | uncertainty=0.6832 | IoU=0.0592
+  [54/100] 000000429761.jpg | prompt=person | uncertainty=0.6864 | IoU=0.0652
+  [55/100] 000000307074.jpg | prompt=traffic light | uncertainty=0.6931 | IoU=0.0549
+  [56/100] 000000334483.jpg | prompt=person | uncertainty=0.6609 | IoU=0.1219
+  [57/100] 000000023359.jpg | prompt=person | uncertainty=0.6911 | IoU=0.0335
+  [59/100] 000000405691.jpg | prompt=potted plant | uncertainty=0.6793 | IoU=0.8484
+  [60/100] 000000365642.jpg | prompt=person | uncertainty=0.6787 | IoU=0.2344
+  [62/100] 000000309655.jpg | prompt=person | uncertainty=0.6829 | IoU=0.0728
+  [63/100] 000000273760.jpg | prompt=person | uncertainty=0.6821 | IoU=0.1359
+  [66/100] 000000460929.jpg | prompt=hot dog | uncertainty=0.6793 | IoU=0.1196
+  [67/100] 000000478862.jpg | prompt=person | uncertainty=0.6863 | IoU=0.2615
+  [68/100] 000000577976.jpg | prompt=truck | uncertainty=0.6870 | IoU=0.0319
+  [69/100] 000000402473.jpg | prompt=cat | uncertainty=0.6638 | IoU=0.2668
+  [70/100] 000000384670.jpg | prompt=person | uncertainty=0.6883 | IoU=0.0400
+  [71/100] 000000034257.jpg | prompt=broccoli | uncertainty=0.6724 | IoU=0.1339
+  [72/100] 000000100274.jpg | prompt=truck | uncertainty=0.6928 | IoU=0.0215
+  [73/100] 000000433774.jpg | prompt=traffic light | uncertainty=0.6928 | IoU=0.0763
+  [75/100] 000000494188.jpg | prompt=person | uncertainty=0.6711 | IoU=0.1296
+  [76/100] 000000080949.jpg | prompt=laptop | uncertainty=0.6583 | IoU=0.4415
+  [77/100] 000000080274.jpg | prompt=elephant | uncertainty=0.6618 | IoU=0.1160
+  [78/100] 000000411530.jpg | prompt=backpack | uncertainty=0.6929 | IoU=0.0082
+  [79/100] 000000301061.jpg | prompt=truck | uncertainty=0.6823 | IoU=0.9157
+  [80/100] 000000289229.jpg | prompt=tie | uncertainty=0.6925 | IoU=0.5179
+  [81/100] 000000466339.jpg | prompt=cat | uncertainty=0.6905 | IoU=0.0348
+  [82/100] 000000263474.jpg | prompt=toilet | uncertainty=0.6887 | IoU=0.2676
+  [83/100] 000000289702.jpg | prompt=dog | uncertainty=0.6814 | IoU=0.1137
+  [84/100] 000000135670.jpg | prompt=bicycle | uncertainty=0.6911 | IoU=0.0551
+  [87/100] 000000043581.jpg | prompt=fork | uncertainty=0.6825 | IoU=0.7838
+  [88/100] 000000484978.jpg | prompt=person | uncertainty=0.6745 | IoU=0.1404
+  [89/100] 000000322724.jpg | prompt=person | uncertainty=0.6900 | IoU=0.0438
+  [90/100] 000000126107.jpg | prompt=bird | uncertainty=0.6839 | IoU=0.0509
+  [91/100] 000000183049.jpg | prompt=book | uncertainty=0.6626 | IoU=0.1529
+  [92/100] 000000017436.jpg | prompt=person | uncertainty=0.6911 | IoU=0.0196
+  [93/100] 000000224093.jpg | prompt=cow | uncertainty=0.6885 | IoU=0.0117
+  [94/100] 000000261982.jpg | prompt=person | uncertainty=0.6741 | IoU=0.1794
+  [97/100] 000000092839.jpg | prompt=bear | uncertainty=0.6542 | IoU=0.4963
+  [100/100] 000000525286.jpg | prompt=clock | uncertainty=0.6700 | IoU=0.1642
+
+==================================================
+Spearman rho = 0.4115  (p-value = 0.0012)
+N = 59 images
+Proposal target: rho > 0.3 -> PASSED
+Results saved to spearman_results.json
