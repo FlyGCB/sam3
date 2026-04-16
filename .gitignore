@@ -156,11 +156,13 @@ inference_results_uncertainty/
 assets/uncertainImages/0000*.jpg
 
 # Results
-inference_results_uncertainty/
-spearman_results.json
+
+# COCO images (too large for git)
+assets/uncertainImages/
+
+# Per-image inference results (too many files, use assets/figures/ instead)
+
+# Temporary scripts
+tmp_*.py
 
 # Environment
-env/
-# Keep only stitched comparison results
-inference_results_uncertainty/result_*
-inference_results_uncertainty/stitched_comparison_3x3_*
