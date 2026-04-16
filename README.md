@@ -14,14 +14,14 @@
 
 ### Project Overview
 
-This project implements **Monte Carlo (MC) Dropout** at inference time on SAM3 to estimate prediction uncertainty without any retraining. By selectively enabling dropout in the decoder and mask head layers, we obtain stochastic predictions whose per-pixel variance and entropy capture useful model uncertainty signals.[file:56]
+This project implements **Monte Carlo (MC) Dropout** at inference time on SAM3 to estimate prediction uncertainty without any retraining. By selectively enabling dropout in the decoder and mask head layers, we obtain stochastic predictions whose per-pixel variance and entropy capture useful model uncertainty signals.
 
 **Key Results (1000-image COCO val2017 subset, seed=42):**
-- ✅ Spearman ρ = **0.4498** (p = 0.0000, N = 559)[file:56]
-- ✅ Baseline mean best-IoU = **0.2307**; MC-Dropout mean best-IoU = **0.2401**[file:56]
-- ✅ Simplified 10-bin ECE proxy = **0.3264**[file:56]
-- ✅ Inference time = **0.81s/image at T=3** and **~5.4s/image at T=20**[file:56]
-- ✅ Qualitative uncertainty maps consistently highlight ambiguous boundaries and difficult regions[ file:56]
+- ✅ Spearman ρ = **0.4498** (p = 0.0000, N = 559)
+- ✅ Baseline mean best-IoU = **0.2307**; MC-Dropout mean best-IoU = **0.2401**
+- ✅ Simplified 10-bin ECE proxy = **0.3264**
+- ✅ Inference time = **0.81s/image at T=3** and **~5.4s/image at T=20**
+- ✅ Qualitative uncertainty maps consistently highlight ambiguous boundaries and difficult regions
 
 📄 **Final Report:** `report/SAM3_Final_Report.pdf`
 
@@ -126,10 +126,9 @@ spearman_results.json
 ```
 
 Expected main result:
-
 - Spearman rho = **0.4498**
 - p-value = **0.0000**
-- N = **559**[file:56]
+- N = **559**
 
 ### Reproducing Report Figures
 
@@ -155,31 +154,31 @@ Expected outputs include:
 
 | Parameter | Value | Notes |
 |---|---|---|
-| MC samples `T` | 3, 20 | Both reported in the final evaluation [file:56] |
-| Confidence threshold | 0.1 | Low threshold to retain uncertain predictions [file:56] |
-| Active dropout layers | 30 | Decoder / mask-head only [file:56] |
-| IoU filter threshold | 0.05 | Filters cases with no meaningful target [file:56] |
-| Random seed | 42 | Reproducible subset selection [file:56] |
+| MC samples `T` | 3, 20 | Both reported in the final evaluation |
+| Confidence threshold | 0.1 | Low threshold to retain uncertain predictions |
+| Active dropout layers | 30 | Decoder / mask-head only |
+| IoU filter threshold | 0.05 | Filters cases with no meaningful target |
+| Random seed | 42 | Reproducible subset selection |
 
 ### Hardware Notes
 
-- NVIDIA GPU with CUDA 12.6+[file:56]
-- Python 3.12[ file:56]
-- PyTorch 2.10.0[file:56]
-- Tested on SUTD AI Mega Cluster[file:56]
+- NVIDIA GPU with CUDA 12.6+
+- Python 3.12
+- PyTorch 2.10.0
+- Tested on SUTD AI Mega Cluster
 
 ### Reproducibility Notes
 
-The course rubric requires the repository to clearly document installation, usage, dependencies, and exact steps needed to recreate the figures and results presented in the report.[file:2]
+The course rubric requires the repository to clearly document installation, usage, dependencies, and exact steps needed to recreate the figures and results presented in the report.
 
 This repository therefore includes:
 - documented scripts
 - selected qualitative figures
 - final quantitative results
 - reproducibility commands
-- final report PDF[file:2]
+- final report PDF
 
-> Note: COCO images are not uploaded to GitHub because of space constraints. Download them separately before running the pipeline.[file:2]
+> Note: COCO images are not uploaded to GitHub because of space constraints. Download them separately before running the pipeline.
 
 ---
 
@@ -194,7 +193,7 @@ Meta Superintelligence Labs
 
 ![SAM 3 architecture](assets/model_diagram.png?raw=true)
 
-SAM 3 is a unified foundation model for promptable segmentation in images and videos. It supports text and visual prompts including points, boxes, and masks.[file:82]
+SAM 3 is a unified foundation model for promptable segmentation in images and videos. It supports text and visual prompts including points, boxes, and masks.
 
 ## Installation
 
@@ -214,8 +213,8 @@ pip install -e ".[notebooks]"
 
 ## Examples
 
-The `examples/` directory contains notebooks demonstrating image prompting, video prompting, batched inference, and SA-Co evaluation workflows.[file:82]
+The `examples/` directory contains notebooks demonstrating image prompting, video prompting, batched inference, and SA-Co evaluation workflows.
 
 ## License
 
-This project is licensed under the SAM License. See `LICENSE` for details.[file:82]
+This project is licensed under the SAM License. See `LICENSE` for details.
