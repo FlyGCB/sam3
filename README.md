@@ -117,13 +117,12 @@ wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip
 python -c "import zipfile; zipfile.ZipFile('annotations_trainval2017.zip').extractall('.')"
 ```
 
-Then download the reproducible 1000-image subset:
+Download the exact 731 images used in this study:
 
-```bash
-python coco/download_1000.py
-```
+> **Evaluation image subset (731 images):**  
+> [Google Drive](https://drive.google.com/file/d/13CvT9bsSiuNpiHH0t6c3y2cGluodNg55/view?usp=sharing)
 
-Move the downloaded images into:
+Extract and place images in:
 
 ```bash
 assets/uncertainImages/
