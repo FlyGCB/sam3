@@ -21,6 +21,8 @@ The goal is to determine whether uncertainty estimates from a pretrained SAM3 mo
 ## Final Results
 
 **Quantitative results on a reproducible 1000-image COCO val2017 subset (seed=42):**
+Of the 1000 sampled images, 731 contained the target object class and were used for inference; after IoU > 0.05 filtering, 559 samples were used for Spearman analysis.
+
 - Spearman ρ = **0.4498**
 - p-value = **0.0000**
 - N = **559**
@@ -107,6 +109,19 @@ Typical outputs include:
 - uncertainty maps
 - entropy maps
 - stitched comparison figures
+
+## Quick Batch Example
+
+```bash
+# Run inference on all images in assets/uncertainImages/ with T=3 (fast mode)
+python inference_script.py
+
+# Outputs are written to inference_results_uncertainty/
+# Per-image uncertainty scores are printed to stdout and saved in spearman_results.json
+```
+
+For production/batch workflows, T=3 (0.81s/image) is recommended.
+For higher uncertainty stability, use T=20 (~5.4s/image).
 
 ## Reproducing Quantitative Results
 
