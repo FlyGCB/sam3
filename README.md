@@ -54,7 +54,7 @@ Boundary-region entropy is a more useful uncertainty metric than full-mask stand
 
 | Groceries scene | Truck scene |
 |---|---|
-| ![groceries](assets/figures/stitched_comparison_3x3_1_groceries.png) | ![truck](assets/figures/stitched_comparison_3x3_2_truck.png) |
+| ![groceries](assets/figures/stitched_comparison_1_groceries.png) | ![truck](assets/figures/stitched_comparison_2_truck.png) |
 
 ## Environment Setup
 
